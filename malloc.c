@@ -4,6 +4,8 @@
 #include <sys/types.h>
 #include <unistd.h>
 
+// TO COMPILE: clang -O0 -g -W -Wall -Wextra -shared -fPIC malloc.c -o malloc.so
+
 struct block_meta {
   size_t size;
   struct block_meta *next;
