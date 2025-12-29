@@ -1,1 +1,4 @@
 *.so
+*.DS_Store
+*out/
+*.ppm
